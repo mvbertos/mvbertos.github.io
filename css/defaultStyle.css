@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  /* Adicionar degrade */
+  background: linear-gradient(to bottom right, purple, cyan);
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+body {
+  margin: 50px;
+}

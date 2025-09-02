@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/defaultStyle.css">
+    <style>
+      .contactForm {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    </style>
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contato</h1>
+    </header>
+    <form class="contactForm" action="" method="post">
+      <!-- Name -->
+      <label for="name">Nome:</label>
+      <input
+        type="text"
+        name="user_name"
+        id="name"
+        placeholder="Insira seu nome"
+      />
+
+      <!-- Email -->
+      <label for="email">Emai:</label>
+      <input
+        type="email"
+        name="user_email"
+        id="email"
+        placeholder="exemplo: teste@gmail.com"
+      />
+
+      <!-- Message -->
+      <label for="message">Mensagem</label>
+      <textarea
+        name="message"
+        id="user_message"
+        placeholder="O que você gostaria de compartilhar?"
+        rows="6"
+        required
+      ></textarea>
+    </form>
+  </body>
+</html>
