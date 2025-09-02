@@ -6,6 +6,28 @@ html {
   background-size: fill;
 }
 
+h1{
+  color:white
+}
+
+a{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+label{
+  color: white;
+}
+
+div{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.26);
+  border-radius: 20px;
+}
+
 body {
   margin: 50px;
 }
